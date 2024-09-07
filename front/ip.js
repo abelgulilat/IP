@@ -2,7 +2,7 @@
 
 
 
-fetch('http://localhost:3000/log')
+fetch('https://ipv3bv3.onrender.com/log')
 .then(response => response.text())
 .then(data => console.log(data))
 .catch(error => console.error('Error:', error));
