@@ -9,7 +9,7 @@ app.get('/log', (req, res) => {
 
   const ip = req.headers['x-forwarded-for'] || req.connection.remoteAddress;
   console.log('Received IP address:', ip);
-  res.send('IP address logged');
+  res.send(ip);
 
 
 
